@@ -67,7 +67,13 @@ function draw() {
 
 		spinFrame = 0;
 		totalSpins++;
-
+		
+		if (totalSpins >= 2147483646) {
+			
+			totalSpins = 0;
+			
+		}
+		
 	}
 
 }
