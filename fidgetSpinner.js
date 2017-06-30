@@ -55,8 +55,8 @@ function draw() {
 
 	background(0, 0, 255);
 	
-	textSize(24);
-	text("Total Spins: " + totalSpins, 2, 20);
+	textSize(75);
+	text("Total Spins: " + totalSpins, 2, 70);
 	
 	frameRate(20);
 
