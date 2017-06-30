@@ -40,7 +40,7 @@ function setup() {
 
 	fidget = new fidgetSpinner();
 
-	createCanvas(500, 500);
+	createCanvas(1360, 768);
 	background(0, 0, 255);
 
 }
